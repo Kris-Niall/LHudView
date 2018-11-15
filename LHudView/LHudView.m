@@ -62,18 +62,6 @@
 }
 
 
-//- (void)showInView
-//{
-//    self.frame = CGRectMake(0, -hxHudHeight, self.frame.size.width, self.frame.size.height);
-//
-//    [UIView animateWithDuration:0.3 animations:^{
-//        self.frame = CGRectMake(0, 0, self.frame.size.width, self.frame.size.height);
-//    }];
-//    [self.bgWindow addSubview:self];
-//    [self.bgWindow makeKeyAndVisible];
-//
-//}
-
 + (void)dismiss{
     [[LHudView sharedView] dismissHud];
 }

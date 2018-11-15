@@ -10,8 +10,6 @@
 
 @interface LHudView : UIView
 
-//- (instancetype)init;
-//- (void)showInView;
 
 + (void)showSuccess:(NSString *)msg;
 + (void)showError:(NSString *)msg;
